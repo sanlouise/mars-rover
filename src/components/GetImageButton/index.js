@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const GetImageButton = (props) => (
   <div>
-    <input type="submit" onClick={props.onClick}/>
+    <input type="submit" onClick={props.onClick} value="Get Images"/>
   </div>
 )
 
